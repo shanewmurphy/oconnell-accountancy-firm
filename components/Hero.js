@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function Hero() {
   return (
-    <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col justify-between mt-12 mb-60 gap-20">
+    <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-between mt-12 mb-60 gap-20">
       <div className="xl:basis-8/12 lg:basis-6/12 md:basis-8/12">
-        <h1 className="xl:text-5xl lg:text-4xl md:text-2xl sm:text-3xl text-width-hero-h1 text-beige font-bold leading-10 antialiased mb-3">
+        <h1 className="xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-width-hero-h1 text-beige font-bold leading-10 antialiased mb-3">
           Maximise Your Financial Potential with Expert Accounting and Tax
           Consulting
         </h1>

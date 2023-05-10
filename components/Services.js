@@ -4,7 +4,7 @@ export default function Services() {
     <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col justify-between mt-12 mb-60 gap-20">
       <div className="xl:basis-8/12 lg:basis-6/12 md:basis-8/12">
         <h1 className="xl:text-5xl lg:text-4xl md:text-2xl sm:text-3xl text-beige font-bold leading-10 antialiased mb-3">
-          Whether you're an{" "}
+          Whether you&apos;re an
           <span className="text-turquoise">individual taxpayer</span>,
           <span className="text-turquoise"> small business owner</span>, or
           <span className="text-turquoise"> large corporation</span>
@@ -17,7 +17,12 @@ export default function Services() {
       </div>
       <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12">
         <div className="service_img_container">
-          <Image src="/imgs/service-group-min.png" width={463} height={299} />
+          <Image
+            src="/imgs/service-group-min.png"
+            width={463}
+            height={299}
+            alt="services we provide"
+          />
         </div>
       </div>
     </div>

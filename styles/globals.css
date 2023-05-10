@@ -26,24 +26,11 @@ ul {
   margin: 0;
   box-sizing: border-box;
 }
-.hero_col {
-  max-width: 600px;
-}
-.services_col {
-  width: 600px;
-}
+
 .text-width-hero-h1 {
-  max-width: 740px;
+  min-width: 600px;
 }
-/* .image_container {
-  width: 600px;
-  margin: 0 auto;
-}
-.hero_conatiner_img {
-  object-fit: contain;
-  object-position: center;
-  margin: 0 auto;
-} */
+
 .service_img_container {
   object-fit: contain;
   object-position: right;
