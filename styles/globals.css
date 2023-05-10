@@ -26,15 +26,16 @@ ul {
   margin: 0;
   box-sizing: border-box;
 }
-
-.text-width-hero-h1 {
-  min-width: 600px;
+.tablet_display {
+  display: block;
 }
-
 .service_img_container {
   object-fit: contain;
   object-position: right;
   float: right;
+}
+.tablet_display {
+  display: block;
 }
 @media screen and (min-width: 1280px) {
   .hero_col {
@@ -46,12 +47,13 @@ ul {
     max-width: 500px;
   }
 }
-@media screen and (max-width: 480px) {
-  .services_col {
-    width: 90vw;
+@media screen and (max-width: 1022px) {
+  .tablet_display {
+    display: none;
   }
 }
-@media screen and (max-width: 358px) {
+
+@media screen and (min-width: 358px) {
   .services_col {
     width: 90vw;
   }
