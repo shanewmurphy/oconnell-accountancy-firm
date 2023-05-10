@@ -29,6 +29,12 @@ ul {
 .hero_col {
   max-width: 600px;
 }
+.services_col {
+  width: 600px;
+}
+.text-width-hero-h1 {
+  max-width: 740px;
+}
 /* .image_container {
   width: 600px;
   margin: 0 auto;
@@ -38,6 +44,11 @@ ul {
   object-position: center;
   margin: 0 auto;
 } */
+.service_img_container {
+  object-fit: contain;
+  object-position: right;
+  float: right;
+}
 @media screen and (min-width: 1280px) {
   .hero_col {
     max-width: 800px;
@@ -46,5 +57,15 @@ ul {
 @media screen and (max-width: 1080px) {
   .hero_col {
     max-width: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services_col {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 358px) {
+  .services_col {
+    width: 90vw;
   }
 }

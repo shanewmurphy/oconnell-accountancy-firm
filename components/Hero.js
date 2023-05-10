@@ -1,13 +1,13 @@
 import Image from "next/image";
 export default function Hero() {
   return (
-    <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col justify-between mt-12">
-      <div className="hero_col">
-        <h1 className="xl:text-5xl lg:text-4xl md:text-2xl sm:text-3xl text-beige font-bold leading-10 antialiased mb-3">
+    <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col justify-between mt-12 mb-60 gap-20">
+      <div className="xl:basis-8/12 lg:basis-6/12 md:basis-8/12">
+        <h1 className="xl:text-5xl lg:text-4xl md:text-2xl sm:text-3xl text-width-hero-h1 text-beige font-bold leading-10 antialiased mb-3">
           Maximise Your Financial Potential with Expert Accounting and Tax
           Consulting
         </h1>
-        <h2 className="xl:text-3xl lg:text-2xl md:text-xl sm:text-xl w-10/12 sm:w-11/12 text-white font-semibold antialiased">
+        <h2 className="xl:text-3xl lg:text-2xl md:text-xl sm:text-xl xl:w-9/12  text-white font-semibold antialiased">
           Get Expert Tax Advice from the Comfort of Your Own Home
         </h2>
         <div className="lg:mt-8 md:mt-4 sm:mt-8 sm:mb-16">
@@ -16,8 +16,8 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="hero_col">
-        <div className="image_container">
+      <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12">
+        <div className="float-right">
           <Image
             className="hero_conatiner_img"
             src="/imgs/Hero.png"
