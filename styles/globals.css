@@ -34,9 +34,7 @@ ul {
   object-position: right;
   float: right;
 }
-.tablet_display {
-  display: block;
-}
+
 @media screen and (min-width: 1280px) {
   .hero_col {
     max-width: 800px;
@@ -52,8 +50,13 @@ ul {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .navbar_desktop {
+    display: block !important;
+  }
+}
 
-@media screen and (min-width: 358px) {
+@media screen and (max-width: 358px) {
   .services_col {
     width: 90vw;
   }

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Narbar";
+import NavbarMobile from "../components/Navbar-mobile";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
         <div className="page_wrapper">
           <div>
             <Navbar />
+          </div>
+          <div>
+            <NavbarMobile />
           </div>
           <div>
             <Hero />

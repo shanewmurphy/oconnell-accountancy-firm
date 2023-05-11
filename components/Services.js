@@ -9,10 +9,10 @@ export default function Services() {
           <span className="text-turquoise"> small business owner</span>, or
           <span className="text-turquoise"> large corporation</span>
         </h1>
-        <p className="text-white font-medium lg:text-lg md:text-2xl antialiased">
+        <p className="text-white font-medium lg:text-lg md:text-2xl sm:text-xl antialiased">
           With our commitment to excellence and customer service, you can trust
           us to deliver the results you need to thrive in today&apos;s complex
-          financial landscape your financial goals
+          financial landscape your financial goals.
         </p>
       </div>
       <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12">

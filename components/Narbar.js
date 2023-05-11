@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Navbar() {
   return (
-    <div className="flex justify-between mt-5 xl:visible lg:visible md:visible sm:invisible">
+    <div className="flex justify-between lg:mt-5 md:mt-6 lg:visible md:visible lg:flex md:flex sm:hidden">
       <div>
         <nav>
           <ul className="inline-flex items-center">
