@@ -4,10 +4,10 @@ export default function Services() {
   return (
     <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-between mt-12 lg:mb-60 md:mb-40 sm:mb-36 gap-14">
       <div className="xl:basis-8/12 lg:basis-6/12 md:basis-8/12">
-        <h1 className="xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-beige font-bold leading-10 antialiased mb-3">
+        <h1 className="max-w-2xl xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-beige font-bold leading-10 antialiased mb-3">
           We offer a wide range of services designed to support your success
         </h1>
-        <p className="text-white font-medium lg:text-lg md:text-2xl sm:text-base antialiased">
+        <p className="text-white max-w-2xl font-medium lg:text-lg md:text-2xl sm:text-base antialiased">
           From tax preparation and bookkeeping to financial planning and
           business advisory services, we offer a wide range of services designed
           to support your success.
@@ -51,17 +51,17 @@ export default function Services() {
             <ul className="lg:inline-flex md:inline-flex sm:inline-flex mt-2">
               <li className="pr-2">
                 <h3 className="outline_tags_large outline outline-1 outline-white text-sm font-medium antialiased">
-                  Personal Tax
+                  Investment consulting
                 </h3>
               </li>
               <li className="pr-2">
                 <h3 className="outline_tags outline outline-1 outline-white text-sm font-medium antialiased">
-                  Payroll Processing
+                  Audit Preparation
                 </h3>
               </li>
               <li>
                 <h3 className="outline_tags outline outline-1 outline-white text-sm font-medium antialiased">
-                  International Tax
+                  VAT Compliance
                 </h3>
               </li>
             </ul>
@@ -71,7 +71,7 @@ export default function Services() {
       <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12">
         <div className="service_img_container">
           <Image
-            src="/imgs/charts-min.png"
+            src="/imgs/charts_C-min.png"
             width={463}
             height={299}
             alt="services we provide"

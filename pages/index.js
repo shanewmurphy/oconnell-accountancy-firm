@@ -33,6 +33,9 @@ export default function Home() {
           <div>
             <Services />
           </div>
+          <div>
+            <Zoom />
+          </div>
         </div>
       </main>
     </div>

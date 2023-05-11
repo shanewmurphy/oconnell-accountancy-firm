@@ -35,7 +35,7 @@ ul {
   float: right;
 }
 .outline_tags {
-  width: 14vw;
+  width: 12vw;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
@@ -49,6 +49,10 @@ ul {
   text-align: center;
   color: white;
   border-radius: 24px;
+}
+.profile_imgs_container {
+  width: 100vw;
+  object-fit: cover;
 }
 @media screen and (min-width: 1280px) {
   .hero_col {
