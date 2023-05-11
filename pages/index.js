@@ -5,6 +5,7 @@ import NavbarMobile from "../components/Navbar-mobile";
 import Hero from "../components/Hero";
 import Businesses from "../components/Businesses";
 import Services from "../components/Services";
+import Zoom from "../components/Zoom";
 
 export default function Home() {
   return (

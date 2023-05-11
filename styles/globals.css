@@ -34,7 +34,22 @@ ul {
   object-position: right;
   float: right;
 }
-
+.outline_tags {
+  width: 14vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+  border-radius: 24px;
+}
+.outline_tags_large {
+  width: 18vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+  border-radius: 24px;
+}
 @media screen and (min-width: 1280px) {
   .hero_col {
     max-width: 800px;
@@ -53,6 +68,22 @@ ul {
 @media screen and (max-width: 768px) {
   .navbar_desktop {
     display: block !important;
+  }
+  .outline_tags {
+    width: 20vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+  }
+  .outline_tags_large {
+    width: 25vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
   }
 }
 
