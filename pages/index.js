@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Narbar";
 import NavbarMobile from "../components/Navbar-mobile";
 import Hero from "../components/Hero";
-import Services from "../components/Services";
+import Services from "../components/Businesses";
 export default function Home() {
   return (
     <div>

@@ -11,18 +11,26 @@ export default function Hero() {
           Get Expert Tax Advice from the Comfort of Your Own Home
         </h2>
         <div className="lg:mt-8 md:mt-4 sm:mt-8">
-          <button className="bg-beige pl-9 pr-9 sm:pl-10 sm:pr-10 pt-4 pb-4 rounded-full lg:text-2xl md:text-xl sm:text-base text-green font-bold antialiased">
+          <button className="bg-beige lg:pl-9 lg:pr-9 lg:pt-4 lg:pb-4 md:pl-24 md:pr-24 md:pt-8 md:pb-8 sm:pl-8 sm:pr-8 sm:pt-4 sm:pb-4 rounded-full lg:text-2xl md:text-3xl sm:text-base text-green font-bold antialiased">
             Book Your Zoom Consultation
           </button>
         </div>
       </div>
-      <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12 lg:block md:hidden sm:block">
-        <div className="lg:float-right">
+      <div className="xl:basis-4/12 lg:basis-4/12 md:basis-3/12 mb-20">
+        <div className="lg:float-right lg:block md:hidden sm:block">
           <Image
             className="hero_conatiner_img"
             src="/imgs/Hero.png"
             width={359}
             height={359}
+            alt="Book Your Zoom Consultation"
+          />
+        </div>
+        <div className="lg:hidden md:block sm:hidden">
+          <Image
+            src="/imgs/Hero_tablet.png"
+            width={645}
+            height={645}
             alt="Book Your Zoom Consultation"
           />
         </div>
