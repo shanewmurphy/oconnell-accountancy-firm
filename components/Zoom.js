@@ -23,7 +23,7 @@ export default function Zoom() {
               src="/imgs/John_B-min.jpg"
               width={559}
               height={300}
-              alt="john"
+              alt="john accountant"
             />
           </div>
           <div className="flex justify-between">
@@ -68,6 +68,7 @@ export default function Zoom() {
               src="/imgs/Sarah_Profile.jpg"
               width={559}
               height={300}
+              alt="Sarah accountant"
             />
           </div>
           <div className="flex justify-between">
@@ -101,8 +102,8 @@ export default function Zoom() {
               specialising in financial reporting and analysis for small and
               medium-sized businesses. She graduated from the National
               University of Ireland, Galway with a Bachelor&apos;s degree in
-              Commerce, and she also holds a Master's degree in Accounting and
-              Finance from the same university.
+              Commerce, and she also holds a Master&lsquo;s degree in Accounting
+              and Finance from the same university.
             </p>
           </div>
         </div>
