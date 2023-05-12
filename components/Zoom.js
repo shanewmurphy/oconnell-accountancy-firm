@@ -41,7 +41,7 @@ export default function Zoom() {
               </h4>
             </div>
           </div>
-          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-6">
+          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <button className="outline outline-1 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
               Book €45 Zoom Call with John
             </button>
@@ -51,8 +51,8 @@ export default function Zoom() {
               Tips on Zoom Preparation
             </a>
           </div>
-          <div className="mt-3">
-            <p className="text-white text-base font-medium antialiased">
+          <div className="lg:mt-3 md:mt-8 sm:mt-8">
+            <p className="text-white text-base font-medium leading-relaxed antialiased">
               John has over 20 years of experience as a CPA, specialising in tax
               consulting for small businesses and individual clients. He
               graduated from the University of Galway with a Bachelor&apos;s
@@ -86,7 +86,7 @@ export default function Zoom() {
               </h4>
             </div>
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <button className="outline outline-1 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
               Book €45 Zoom Call with Sarah
             </button>
@@ -96,8 +96,8 @@ export default function Zoom() {
               Tips on Zoom Preparation
             </a>
           </div>
-          <div className="mt-3">
-            <p className="text-white text-base font-medium antialiased">
+          <div className="lg:mt-3 md:mt-8 sm:mt-8">
+            <p className="text-white text-base font-medium leading-relaxed antialiased">
               Sarah has over 12 years of experience as a chartered accountant,
               specialising in financial reporting and analysis for small and
               medium-sized businesses. She graduated from the National

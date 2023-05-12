@@ -9,7 +9,7 @@ export default function Services() {
           <span className="text-turquoise"> small business owner</span>, or
           <span className="text-turquoise"> large corporation</span>
         </h1>
-        <p className="text-white max-w-xl font-medium lg:text-lg md:text-2xl sm:text-base antialiased">
+        <p className="text-white max-w-xl font-medium lg:text-lg md:text-2xl sm:text-base leading-relaxed antialiased">
           With our commitment to excellence and customer service, you can trust
           us to deliver the results you need to thrive in today&apos;s complex
           financial landscape.

@@ -8,7 +8,7 @@ export default function AboutUs() {
           <span className="text-turquoise pl-2">20 years</span> of experience in
           the industry
         </h1>
-        <p className="text-white font-medium lg:text-lg md:text-2xl sm:text-base antialiased">
+        <p className="text-white font-medium lg:text-lg md:text-2xl sm:text-base leading-relaxed antialiased">
           Over the years, our business grew, and we expanded our services to
           include more specialised tax consulting and financial advisory
           services. We also started offering our services online, allowing us to
