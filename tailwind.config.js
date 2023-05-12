@@ -11,6 +11,7 @@ module.exports = {
         green: "#1C4646",
         beige: "#f6c193",
         turquoise: "#a7d4d3",
+        deepgreen: "#143A3A",
       },
       fontFamily: {
         sans: ["var(--font-inter_tight)"],

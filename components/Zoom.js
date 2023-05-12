@@ -15,8 +15,8 @@ export default function Zoom() {
           expertise and knowledge to help
         </p>
       </div>
-      <div className="flex lg:flex-row md:flex-row sm:flex-col mt-6 gap-8">
-        <div className="basis-6/12">
+      <div className="flex lg:flex-row md:flex-row sm:flex-col mt-6 gap-14">
+        <div className="basis-3/6">
           <div>
             <Image
               className="rounded-lg profile_imgs_container"
@@ -41,7 +41,7 @@ export default function Zoom() {
               </h4>
             </div>
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-6">
             <button className="outline outline-1 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
               Book €45 Zoom Call with John
             </button>
@@ -61,7 +61,7 @@ export default function Zoom() {
             </p>
           </div>
         </div>
-        <div className="basis-6/12">
+        <div className="basis-3/6 lg:mt-0 md:mt-0 sm:mt-8">
           <div>
             <Image
               className="rounded-lg profile_imgs_container"

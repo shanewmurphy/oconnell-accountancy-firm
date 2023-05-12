@@ -6,6 +6,8 @@ import Hero from "../components/Hero";
 import Businesses from "../components/Businesses";
 import Services from "../components/Services";
 import Zoom from "../components/Zoom";
+import AboutUs from "../components/About-Us";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -35,6 +37,12 @@ export default function Home() {
           </div>
           <div>
             <Zoom />
+          </div>
+          <div>
+            <AboutUs />
+          </div>
+          <div>
+            <Contact />
           </div>
         </div>
       </main>
