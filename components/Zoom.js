@@ -46,7 +46,7 @@ export default function Zoom() {
               Book €45 Zoom Call with John
             </button>
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <a className="text-turquoise font-semibold text-sm underline decoration-solid antialiased">
               Tips on Zoom Preparation
             </a>
@@ -91,7 +91,7 @@ export default function Zoom() {
               Book €45 Zoom Call with Sarah
             </button>
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <a className="text-turquoise font-semibold text-sm underline decoration-solid antialiased">
               Tips on Zoom Preparation
             </a>

@@ -3,7 +3,7 @@ export default function AboutUs() {
   return (
     <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-between mt-12 lg:mb-60 md:mb-40 sm:mb-36 gap-14">
       <div className="basis-3/6">
-        <h1 className="xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-beige font-bold leading-10 antialiased mb-3">
+        <h1 className="xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-beige font-bold leading-relaxed antialiased mb-3">
           With over
           <span className="text-turquoise pl-2">20 years</span> of experience in
           the industry
