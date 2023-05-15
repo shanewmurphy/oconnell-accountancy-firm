@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Contact() {
   return (
     <div className="container mx-auto bg-deepgreen rounded-xl py-10 px-6 lg:mb-60 md:mb-40 sm:mb-36 antialiased">
@@ -12,7 +13,20 @@ export default function Contact() {
         <button className="mt-3 lg:px-24 lg:py-3 md:px-24 md:py-4 sm:px-24 sm:py-4 rounded-lg bg-beige lg:text-2xl md:text-2xl sm:text-xl text-green font-bold antialiased">
           Email Us
         </button>
-        <p>sss</p>
+        <div className="w-56 mx-auto lg:mt-4 md:mt-4 sm:mt-4">
+          <p className="flex items-center text-white font-semibold text-2xl">
+            <span className="inline-block pr-2">
+              <Image
+                className="items-center"
+                src="/imgs/Call_icon.svg"
+                width={30}
+                height={30}
+                alt="call icon"
+              />
+            </span>
+            (091) 511 400
+          </p>
+        </div>
         <p className="text-white mt-6 max-w-xl mx-auto font-medium lg:text-xl md:text-xl sm:text-sm leading-relaxed antialiased">
           To reduce the time he spends on financial management and focus on
           other areas of your business

@@ -8,6 +8,7 @@ import Services from "../components/Services";
 import Zoom from "../components/Zoom";
 import AboutUs from "../components/About-Us";
 import Contact from "../components/Contact";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   return (
@@ -43,6 +44,9 @@ export default function Home() {
           </div>
           <div>
             <Contact />
+          </div>
+          <div>
+            <FAQ />
           </div>
         </div>
       </main>

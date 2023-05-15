@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         green: "#1C4646",
-        beige: "#f6c193",
+        beige: "#F6B67B",
+        darkbeige: "#EEAB70",
         turquoise: "#a7d4d3",
         deepgreen: "#143A3A",
       },
