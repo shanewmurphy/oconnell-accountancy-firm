@@ -30,7 +30,7 @@ const FAQ_Data = [
     id: "05",
     question: "How long does a typical consultation last?",
     answer:
-      "Consultations typically last between 30 minutes to an hour, depending on the complexity of your financial situation.",
+      "Consultations typically last between 25 minutes to an hour, depending on the complexity of your financial situation.",
   },
   {
     id: "06",
@@ -68,31 +68,47 @@ export default function FAQ() {
         </h1>
       </div>
       <div className="mx-auto max-w-4xl rounded-2xl p-2">
-        <ul>
-          {FAQ_Data.map((FAQ) => {
-            return (
-              <Disclosure key={FAQ.id}>
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button className="flex w-full justify-between rounded-lg mb-6 bg-beige px-6 py-6 text-left lg:text-lg md:text-lg sm:text-sm font-semibold text-green hover:bg-darkbeige focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                      <span className="lg:w-full md:w-full sm:w-11/12">
-                        {FAQ.question}
-                      </span>
-                      <ChevronUpIcon
-                        className={`${
-                          open ? "rotate-180 transform" : ""
-                        } h-6 w-6 text-green`}
-                      />
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="px-2 pt-0 pb-6 text-base text-white">
-                      {FAQ.answer}
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-            );
-          })}
-        </ul>
+        {FAQ_Data.map((FAQ) => {
+          return (
+            <Disclosure key={FAQ.id}>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex w-full justify-between rounded-lg mb-6 bg-beige px-6 py-6 text-left lg:text-lg md:text-lg sm:text-sm font-semibold text-green hover:bg-darkbeige focus:outline-none focus-visible:ring focus-visible:ring-opacity-75 antialiased">
+                    <span className="lg:w-full md:w-full sm:w-11/12 font-semibold">
+                      {FAQ.question}
+                    </span>
+                    <ChevronUpIcon
+                      className={`${
+                        open ? "rotate-180 transform" : ""
+                      } h-6 w-6 text-green`}
+                    />
+                  </Disclosure.Button>
+                  <Disclosure.Panel className="px-2 pt-0 pb-6 text-base text-white antialiased">
+                    {FAQ.answer}
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
+          );
+        })}
+      </div>
+      <div className="max-w-2xl mx-auto mt-4">
+        <h3 className="text-center text-beige font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl antialiased">
+          Got an specific question
+        </h3>
+        <p className="text-center text-white lg:text-xl md:text-xl sm:text-sm font-semibold mt-2 antialiased">
+          With our easy-to-use online platform, you can schedule a Zoom
+          consultation at a time that works for you, from the comfort of your
+          own home or office.
+        </p>
+        <h4 className="text-center text-turquoise font-semibold lg:text-2xl md:text-2xl sm:text-lg mt-4 antialiased">
+          Get Your Tax Questions Answered Fast
+        </h4>
+        <div className="text-center mx-auto mt-4">
+          <button className="text-center text-beige font-bold outline outline-1 outline-beige rounded-full lg:text-2xl lg:py-4 lg:px-24 md:py-4 md:px-20 sm:py-4 sm:px-7 antialiased">
+            Book Your Zoom Consultation
+          </button>
+        </div>
       </div>
     </div>
   );
