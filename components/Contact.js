@@ -10,7 +10,7 @@ export default function Contact() {
           If you have any questions, please do not hesitate to send us an email
           with you&apos;re inquiry
         </h3>
-        <button className="mt-3 lg:px-24 lg:py-3 md:px-24 md:py-4 sm:px-24 sm:py-4 rounded-lg bg-beige lg:text-2xl md:text-2xl sm:text-xl text-green font-bold antialiased">
+        <button className="mt-3 lg:px-24 lg:py-3 md:px-24 md:py-4 sm:px-24 sm:py-4 rounded-lg bg-beige lg:text-2xl md:text-2xl sm:text-xl text-green font-bold hover:bg-transparent hover:outline hover:outline-1 hover:outline-beige hover:text-beige antialiased">
           Email Us
         </button>
         <div className="w-48 mx-auto lg:mt-4 md:mt-4 sm:mt-4">

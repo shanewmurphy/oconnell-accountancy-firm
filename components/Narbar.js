@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Navbar() {
   return (
-    <div className="flex justify-between lg:mt-5 md:mt-6 lg:visible md:visible lg:flex md:flex sm:hidden">
+    <div className="flex justify-between items-center lg:mt-5 md:mt-6 lg:visible md:visible lg:flex md:flex sm:hidden">
       <div>
         <nav>
           <ul className="inline-flex items-center">
@@ -28,7 +28,9 @@ export default function Navbar() {
           </ul>
         </nav>
       </div>
-      <div>BB</div>
+      <div className="bg-white rounded-md py-1 px-8 text-deepgreen font-bold antialiased">
+        Call (091) 511 400
+      </div>
     </div>
   );
 }

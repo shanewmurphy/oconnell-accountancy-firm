@@ -105,7 +105,7 @@ export default function FAQ() {
           Get Your Tax Questions Answered Fast
         </h4>
         <div className="text-center mx-auto mt-4">
-          <button className="text-center text-beige font-bold outline outline-1 outline-beige rounded-full lg:text-2xl lg:py-4 lg:px-24 md:py-4 md:px-20 sm:py-4 sm:px-7 antialiased">
+          <button className="text-center text-beige font-bold outline outline-1 outline-beige rounded-full lg:text-2xl lg:py-4 lg:px-24 md:py-4 md:px-20 sm:py-4 sm:px-7 hover:bg-beige hover:text-deepgreen hover:outline-0 antialiased">
             Book Your Zoom Consultation
           </button>
         </div>
