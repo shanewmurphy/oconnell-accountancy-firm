@@ -63,7 +63,7 @@ export default function FAQ() {
   return (
     <div className="max-w-4xl mx-auto lg:mb-60 md:mb-40 sm:mb-36">
       <div>
-        <h1 className="text-center xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl text-beige font-bold mb-4">
+        <h1 className="text-center xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl text-beige font-bold mb-4 antialiased">
           Frequent questions and answers
         </h1>
       </div>
@@ -74,7 +74,7 @@ export default function FAQ() {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between rounded-lg mb-6 bg-beige px-6 py-6 text-left lg:text-lg md:text-lg sm:text-sm font-semibold text-green hover:bg-darkbeige focus:outline-none focus-visible:ring focus-visible:ring-opacity-75 antialiased">
-                    <span className="lg:w-full md:w-full sm:w-11/12 font-semibold">
+                    <span className="lg:w-full md:w-full sm:w-11/12 font-semibold antialiased">
                       {FAQ.question}
                     </span>
                     <ChevronUpIcon
@@ -83,7 +83,7 @@ export default function FAQ() {
                       } h-6 w-6 text-green`}
                     />
                   </Disclosure.Button>
-                  <Disclosure.Panel className="px-2 pt-0 pb-6 text-base text-white antialiased">
+                  <Disclosure.Panel className="px-2 pt-0 pb-6 text-base font-medium text-white antialiased">
                     {FAQ.answer}
                   </Disclosure.Panel>
                 </>

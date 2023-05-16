@@ -13,9 +13,9 @@ export default function Contact() {
         <button className="mt-3 lg:px-24 lg:py-3 md:px-24 md:py-4 sm:px-24 sm:py-4 rounded-lg bg-beige lg:text-2xl md:text-2xl sm:text-xl text-green font-bold antialiased">
           Email Us
         </button>
-        <div className="w-56 mx-auto lg:mt-4 md:mt-4 sm:mt-4">
-          <p className="flex items-center text-white font-semibold text-2xl">
-            <span className="inline-block pr-2">
+        <div className="w-48 mx-auto lg:mt-4 md:mt-4 sm:mt-4">
+          <p className="flex items-center text-white text-center font-semibold text-2xl">
+            <span className="inline-flex justify-self-center text-center pr-2">
               <Image
                 className="items-center"
                 src="/imgs/Call_icon.svg"

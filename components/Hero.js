@@ -11,7 +11,7 @@ export default function Hero() {
           Get Expert Tax Advice from the Comfort of Your Own Home
         </h2>
         <div className="mt-8">
-          <button className="bg-beige lg:pl-9 lg:pr-9 lg:pt-4 lg:pb-4 md:pl-16 md:pr-16 md:pt-7 md:pb-7 sm:pl-8 sm:pr-8 sm:pt-4 sm:pb-4 rounded-full lg:text-2xl md:text-2xl sm:text-base text-green font-bold antialiased">
+          <button className="bg-beige lg:px-16 lg:py-5 md:px-16 md:py-5 sm:px-11 sm:py-4 rounded-full lg:text-2xl md:text-2xl sm:text-base text-green font-bold antialiased">
             Book Your Zoom Consultation
           </button>
         </div>

@@ -9,6 +9,8 @@ import Zoom from "../components/Zoom";
 import AboutUs from "../components/About-Us";
 import Contact from "../components/Contact";
 import FAQ from "../components/FAQ";
+import Testimonials from "../components/Testimonials";
+import MobileTestimonials from "../components/Testimonials-mobile";
 
 export default function Home() {
   return (
@@ -47,6 +49,12 @@ export default function Home() {
           </div>
           <div>
             <FAQ />
+          </div>
+          <div>
+            <Testimonials />
+          </div>
+          <div>
+            <MobileTestimonials />
           </div>
         </div>
       </main>

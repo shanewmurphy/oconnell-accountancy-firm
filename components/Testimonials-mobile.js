@@ -41,24 +41,23 @@ const Testimonials_Data = [
   {
     id: "06",
     location: "Kerry",
-    name: "Ann-Maire ",
+    name: "Ann-Maire O’Connor",
     comment:
       "This tax consultant is a lifesaver! They helped me resolve a complicated tax issue that had been hanging over my head for months, and they did it with professionalism and efficiency. I'm so grateful for their expertise and dedication to their clients",
   },
 ];
-
-export default function Testimonials() {
+export default function MobileTestimonials() {
   return (
     <div>
       <div className="text-center">
-        <h1 className="xl:text-6xl lg:block md:block sm:hidden lg:text-5xl md:text-5xl sm:text-3xl text-beige font-bold mb-4 antialiased">
+        <h1 className="xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl lg:hidden md:hidden sm:block text-beige font-bold mb-4 antialiased">
           Customers Stories
         </h1>
       </div>
-      <div className="w-full lg:flex md:flex sm:hidden lg:mb-60 md:mb-40 sm:mb-36">
+      <div className="w-full lg:hidden md:hidden sm:flex lg:mb-60 md:mb-40 sm:mb-36">
         <Swiper
           spaceBetween={30}
-          slidesPerView="3"
+          slidesPerView="1"
           grabCursor={true}
           autoplay={{
             delay: 4500,
