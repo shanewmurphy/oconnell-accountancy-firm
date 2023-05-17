@@ -1,5 +1,45 @@
+import { Dialog, Transition } from "@headlessui/react";
+import { Fragment, useState } from "react";
+
 import Image from "next/image";
+import { Inter_Tight } from "@next/font/google";
+const inter_tight = Inter_Tight({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-inter_tight",
+});
+const Tips = [
+  {
+    id: "01",
+    title: "Test your equipment",
+    tip: "Before your scheduled Zoom call, ensure that your equipment is working correctly, including your camera, microphone, and speakers. Test your internet connection to make sure it is stable.",
+  },
+  {
+    id: "02",
+    title: "Gather necessary documents",
+    tip: "Collect all the necessary documents and information you may need during the call, such as your tax returns, bank statements, and any receipts",
+  },
+  {
+    id: "03",
+    title: "Be ready to discuss your financial situation",
+    tip: "Think about the questions you want to ask your accountant or tax consultant ahead of time. Be prepared to discuss your financial situation, including any income, expenses, and investments",
+  },
+  {
+    id: "04",
+    title: "Make a list of your goals",
+    tip: "Make a list of your financial goals and objectives, both short-term and long-term. This will help guide your conversation with your accountant or tax consultant and ensure that you get the most out of your call.",
+  },
+];
 export default function Zoom() {
+  let [isOpen, setIsOpen] = useState(false);
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  function openModal() {
+    setIsOpen(true);
+  }
   return (
     <div className="lg:mb-60 md:mb-40 sm:mb-36">
       <div className="container mx-auto">
@@ -47,9 +87,84 @@ export default function Zoom() {
             </button>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
-            <a className="text-turquoise font-semibold text-sm underline decoration-solid antialiased">
+            <button
+              type="button"
+              onClick={openModal}
+              className="text-turquoise font-semibold text-sm underline decoration-solid antialiased"
+            >
               Tips on Zoom Preparation
-            </a>
+            </button>
+            <>
+              <Transition appear show={isOpen} as={Fragment}>
+                <Dialog as="div" className="relative z-10" onClose={closeModal}>
+                  <Transition.Child
+                    as={Fragment}
+                    enter="ease-out duration-300"
+                    enterFrom="opacity-0"
+                    enterTo="opacity-100"
+                    leave="ease-in duration-200"
+                    leaveFrom="opacity-100"
+                    leaveTo="opacity-0"
+                  >
+                    <div className="fixed inset-0 bg-black bg-opacity-25" />
+                  </Transition.Child>
+                  <div className="fixed inset-0 overflow-y-auto">
+                    <div className="flex min-h-full items-center justify-center p-4 text-center">
+                      <Transition.Child
+                        as={Fragment}
+                        enter="ease-out duration-300"
+                        enterFrom="opacity-0 scale-95"
+                        enterTo="opacity-100 scale-100"
+                        leave="ease-in duration-200"
+                        leaveFrom="opacity-100 scale-100"
+                        leaveTo="opacity-0 scale-95"
+                      >
+                        <Dialog.Panel className="lg:w-2/3 md:11/12 sm:w-11/12  lg:py-16 md:py-10 sm:py-8 transform overflow-hidden rounded-2xl bg-deepgreen p-6 text-center align-middle shadow-xl transition-all">
+                          <div className={`${inter_tight.variable} font-sans`}>
+                            <Dialog.Title
+                              as="h3"
+                              className="font-bold lg:text-4xl md:text-3xl sm:text-2xl text-white mb-4 antialiased"
+                            >
+                              Zoom Preparation Tips
+                            </Dialog.Title>
+                          </div>
+                          <ul>
+                            {Tips.map((Tips) => {
+                              return (
+                                <li key={Tips.id}>
+                                  <div
+                                    className={`${inter_tight.variable} font-sans`}
+                                  >
+                                    <div className="mt-2">
+                                      <h4 className="font-bold lg:text-2xl md:text-2xl sm:text-xl text-beige antialiased">
+                                        {Tips.title}
+                                      </h4>
+                                      <p className="lg:w-9/12 md:11/12 sm:w-11/12 mx-auto lg:text-base md:text-base sm:text-sm text-white font-medium mb-6">
+                                        {Tips.tip}
+                                      </p>
+                                    </div>
+                                  </div>
+                                </li>
+                              );
+                            })}
+                          </ul>
+
+                          <div className="mt-4">
+                            <button
+                              type="button"
+                              className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                              onClick={closeModal}
+                            >
+                              Got it, thanks!
+                            </button>
+                          </div>
+                        </Dialog.Panel>
+                      </Transition.Child>
+                    </div>
+                  </div>
+                </Dialog>
+              </Transition>
+            </>
           </div>
           <div className="lg:mt-3 md:mt-8 sm:mt-8">
             <p className="text-white text-base font-medium leading-relaxed antialiased">
@@ -92,9 +207,13 @@ export default function Zoom() {
             </button>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
-            <a className="text-turquoise font-semibold text-sm underline decoration-solid antialiased">
+            <button
+              type="button"
+              onClick={openModal}
+              className="text-turquoise font-semibold text-sm underline decoration-solid antialiased"
+            >
               Tips on Zoom Preparation
-            </a>
+            </button>
           </div>
           <div className="lg:mt-3 md:mt-8 sm:mt-8">
             <p className="text-white text-base font-medium leading-relaxed antialiased">

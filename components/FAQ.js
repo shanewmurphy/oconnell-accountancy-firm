@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
+
 const FAQ_Data = [
   {
     id: "01",
@@ -59,6 +60,7 @@ const FAQ_Data = [
       "Our policy for refunds or cancellations varies depending on the specific service you have requested. We will work with you to ensure that you are satisfied with our services and address any issues or concerns you may have.",
   },
 ];
+
 export default function FAQ() {
   return (
     <div className="max-w-4xl mx-auto lg:mb-60 md:mb-40 sm:mb-36">

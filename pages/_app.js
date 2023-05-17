@@ -9,9 +9,11 @@ const inter_tight = Inter_Tight({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className={`${inter_tight.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
+    <>
+      <main className={`${inter_tight.variable} font-sans`}>
+        <Component {...pageProps} />
+      </main>
+    </>
   );
 }
 
