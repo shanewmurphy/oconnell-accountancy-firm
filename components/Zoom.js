@@ -148,15 +148,16 @@ export default function Zoom() {
                               );
                             })}
                           </ul>
-
-                          <div className="mt-4">
-                            <button
-                              type="button"
-                              className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                              onClick={closeModal}
-                            >
-                              Got it, thanks!
-                            </button>
+                          <div className={`${inter_tight.variable} font-sans`}>
+                            <div className="mt-4">
+                              <button
+                                type="button"
+                                className="inline-flex justify-center rounded-md border border-transparent bg-beige px-10 py-2 text-sm font-medium text-green hover:bg-transparent hover:text-beige hover:outline hover:outline-1 hover:outline-beige"
+                                onClick={closeModal}
+                              >
+                                Close
+                              </button>
+                            </div>
                           </div>
                         </Dialog.Panel>
                       </Transition.Child>

@@ -11,7 +11,7 @@ import Contact from "../components/Contact";
 import FAQ from "../components/FAQ";
 import Testimonials from "../components/Testimonials";
 import MobileTestimonials from "../components/Testimonials-mobile";
-
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
@@ -56,6 +56,9 @@ export default function Home() {
           <div>
             <MobileTestimonials />
           </div>
+        </div>
+        <div>
+          <Footer />
         </div>
       </main>
     </div>

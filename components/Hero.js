@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
         <div className="lg:hidden md:block sm:hidden">
           <Image
-            src="/imgs/Hero_tablet.png"
+            src="/imgs/Hero_tablet-min.png"
             width={645}
             height={645}
             alt="Book Your Zoom Consultation"

@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="container mx-auto bg-deepgreen rounded-xl py-10 px-6 lg:mb-60 md:mb-40 sm:mb-36 antialiased">
-      <div className="max-w-2xl mx-auto text-center">
+    <div className="lg:w-10/12 md:w-full sm:w-full mx-auto bg-deepgreen rounded-xl py-10 px-6 lg:mb-60 md:mb-40 sm:mb-36 antialiased">
+      <div className="max-w-xl mx-auto text-center">
         <h1 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-beige font-bold lg:mb-2 md:mb-2 sm:mb-4 antialiased">
           We&apos;d love to hear from you!
         </h1>
