@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-deepgreen lg:px-20 lg:py-14 md:px-14 md:py-14 sm:px-8 sm:py-14">
+    <div className="w-full bg-deepgreen lg:px-20 lg:py-14 md:px-14 md:py-14 sm:px-8 sm:py-12">
       <div className="flex lg:flex-row md:flex-row sm:flex-col justify-between">
         <div>
           <div>
@@ -14,15 +14,18 @@ export default function Footer() {
             />
           </div>
           <p className="font-semibold text-xl text-white mt-4 antialiased">
-            (091) 511 400
+            <span className="text-base pr-1">Call:</span>(091) 511 400
           </p>
-          <a className="text-white text-base antialiased">
+          <a className="text-white text-base font-semibold antialiased">
+            <span className="text-base pr-1">Email:</span>
             info@oconnellaccountants.com
           </a>
         </div>
         <div className="lg:mt-0 md:mt-0 sm:mt-6">
-          <address className="not-italic font-medium text-white text-sm antialiased">
-            <strong className="text-base antialiased">Gray Office Park,</strong>
+          <address className="not-italic font-medium text-white lg:text-base md:text-sm sm:text-xlantialiased">
+            <strong className="lg:text-base md:text-base sm:text-xl antialiased">
+              Gray Office Park,
+            </strong>
             <br />
             Headford Rd, <br />
             Galway, <br />
@@ -44,6 +47,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="flex justify-end border-t-2 border-teal-800 mt-6">
+        <div className="text-white text-sm mt-2">Made by Shane</div>
       </div>
     </div>
   );
