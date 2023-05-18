@@ -1,7 +1,8 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-
+import Link from "next/link";
 import Image from "next/image";
+
 import { Inter_Tight } from "@next/font/google";
 const inter_tight = Inter_Tight({
   subsets: ["latin"],
@@ -82,9 +83,14 @@ export default function Zoom() {
             </div>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
-            <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
-              Book €45 Zoom Call with John
-            </button>
+            <Link
+              href="https://cal.com/john-o-connell-bookings/zoom-call-with-john?duration=25"
+              target="blank"
+            >
+              <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
+                Book €45 Zoom Call with John
+              </button>
+            </Link>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <button
@@ -203,9 +209,14 @@ export default function Zoom() {
             </div>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
-            <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
-              Book €45 Zoom Call with Sarah
-            </button>
+            <Link
+              href="https://cal.com/john-o-connell-bookings/zoom-call-with-sarah?duration=25"
+              target="blank"
+            >
+              <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
+                Book €45 Zoom Call with Sarah
+              </button>
+            </Link>
           </div>
           <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
             <button

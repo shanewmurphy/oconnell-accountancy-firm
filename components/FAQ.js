@@ -75,14 +75,14 @@ export default function FAQ() {
             <Disclosure key={FAQ.id}>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex w-full justify-between rounded-lg mb-6 bg-beige px-6 py-6 text-left lg:text-lg md:text-lg sm:text-sm font-semibold text-green hover:bg-darkbeige focus:outline-none focus-visible:ring focus-visible:ring-opacity-75 antialiased">
+                  <Disclosure.Button className="flex w-full justify-between rounded-lg mb-6 bg-deepgreen px-6 py-6 text-left lg:text-lg md:text-lg sm:text-sm font-semibold text-white hover:bg-hovergren focus:outline-none focus-visible:ring focus-visible:ring-opacity-75 antialiased">
                     <span className="lg:w-full md:w-full sm:w-11/12 font-semibold antialiased">
                       {FAQ.question}
                     </span>
                     <ChevronUpIcon
                       className={`${
                         open ? "rotate-180 transform" : ""
-                      } h-6 w-6 text-green`}
+                      } h-6 w-6 text-white`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-2 pt-0 pb-6 text-base font-medium text-white antialiased">

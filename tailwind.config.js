@@ -13,6 +13,7 @@ module.exports = {
         darkbeige: "#EEAB70",
         turquoise: "#a7d4d3",
         deepgreen: "#143A3A",
+        hovergren: "#113434",
       },
       fontFamily: {
         sans: ["var(--font-inter_tight)"],

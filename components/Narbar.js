@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center lg:mt-5 md:mt-6 lg:visible md:visible lg:flex md:flex sm:hidden">
@@ -28,7 +29,7 @@ export default function Navbar() {
           </ul>
         </nav>
       </div>
-      <div className="bg-white rounded-md py-1 px-8 text-deepgreen font-bold antialiased">
+      <div className="bg-white rounded-md py-2 px-8 text-deepgreen font-bold antialiased">
         Call (091) 511 400
       </div>
     </div>

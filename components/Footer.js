@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Footer() {
   return (
     <div className="w-full bg-deepgreen lg:px-20 lg:py-14 md:px-14 md:py-14 sm:px-8 sm:py-12">
@@ -16,13 +16,17 @@ export default function Footer() {
           <p className="font-semibold text-xl text-white mt-4 antialiased">
             <span className="text-base pr-1">Call:</span>(091) 511 400
           </p>
-          <a className="text-white text-base font-semibold antialiased">
+          <div className="text-white text-base font-semibold antialiased">
             <span className="text-base pr-1">Email:</span>
-            info@oconnellaccountants.com
-          </a>
+            <Link href="mailto:info@oconnellaccountants.com">
+              <button className="text-white hover:text-beige">
+                info@oconnellaccountants.com
+              </button>
+            </Link>
+          </div>
         </div>
         <div className="lg:mt-0 md:mt-0 sm:mt-6">
-          <address className="not-italic font-medium text-white lg:text-base md:text-sm sm:text-xlantialiased">
+          <address className="not-italic font-medium text-white lg:text-base md:text-sm sm:text-xl antialiased">
             <strong className="lg:text-base md:text-base sm:text-xl antialiased">
               Gray Office Park,
             </strong>
@@ -38,18 +42,29 @@ export default function Footer() {
                   src="/imgs/Twitter_icon.svg"
                   width={20}
                   height={17}
-                  alt="twiiter logo"
+                  alt="twitter logo"
                 />
               </li>
               <li className="pl-2">
-                <Image src="/imgs/LinkedIn_icon.svg" width={18} height={17} />
+                <Image
+                  src="/imgs/LinkedIn_icon.svg"
+                  width={18}
+                  height={17}
+                  alt="linkedIn icon"
+                />
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="flex justify-end border-t-2 border-teal-800 mt-6">
-        <div className="text-white text-sm mt-2">Made by Shane</div>
+        <div className="text-white text-sm mt-2 antialiased">
+          <Link href="http://shanemurphy.design" target="blank">
+            <button className="text-white hover:text-beige cursor-pointer">
+              Made by Shane
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
