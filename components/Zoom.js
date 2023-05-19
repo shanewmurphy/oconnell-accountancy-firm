@@ -82,17 +82,17 @@ export default function Zoom() {
               </h4>
             </div>
           </div>
-          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
+          <div className="flex justify-center lg:mt-6 md:mt-4 sm:mt-8">
             <Link
               href="https://cal.com/john-o-connell-bookings/zoom-call-with-john?duration=25"
               target="blank"
             >
-              <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
-                Book €45 Zoom Call with John
+              <button className="outline lg:outline-1 md:outline-1 sm:outline-2 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg lg:px-20 lg:py-4 md:px-10 md:py-4 sm:px-9 sm:py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base sm:text-xl font-semibold antialiased">
+                Book Video Call with John
               </button>
             </Link>
           </div>
-          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
+          <div className="flex justify-center lg:mt-6 md:mt-4 sm:mt-8">
             <button
               type="button"
               onClick={openModal}
@@ -173,7 +173,7 @@ export default function Zoom() {
               </Transition>
             </>
           </div>
-          <div className="lg:mt-3 md:mt-8 sm:mt-8">
+          <div className="lg:mt-6 md:mt-8 sm:mt-8">
             <p className="text-white text-base font-medium leading-relaxed antialiased">
               John has over 20 years of experience as a CPA, specialising in tax
               consulting for small businesses and individual clients. He
@@ -208,17 +208,17 @@ export default function Zoom() {
               </h4>
             </div>
           </div>
-          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
+          <div className="flex justify-center lg:mt-6 md:mt-6 sm:mt-8">
             <Link
               href="https://cal.com/john-o-connell-bookings/zoom-call-with-sarah?duration=25"
               target="blank"
             >
-              <button className="outline outline-1 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg px-10 py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base font-semibold antialiased">
-                Book €45 Zoom Call with Sarah
+              <button className="outline lg:outline-1 md:outline-1 sm:outline-2 hover:bg-beige hover:text-deepgreen hover:outline-0 max-w-lg lg:px-20 lg:py-4 md:px-10 md:py-4 sm:px-9 sm:py-4 rounded-full outline-beige text-center text-beige lg:text-xl md:text-base sm:text-xl font-semibold antialiased">
+                Book Video Call with Sarah
               </button>
             </Link>
           </div>
-          <div className="flex justify-center lg:mt-4 md:mt-4 sm:mt-8">
+          <div className="flex justify-center lg:mt-6 md:mt-4 sm:mt-8">
             <button
               type="button"
               onClick={openModal}
@@ -227,7 +227,7 @@ export default function Zoom() {
               Tips on Zoom Preparation
             </button>
           </div>
-          <div className="lg:mt-3 md:mt-8 sm:mt-8">
+          <div className="lg:mt-6 md:mt-8 sm:mt-8">
             <p className="text-white text-base font-medium leading-relaxed antialiased">
               Sarah has over 12 years of experience as a chartered accountant,
               specialising in financial reporting and analysis for small and

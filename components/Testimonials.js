@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials_Data = [
@@ -65,7 +66,7 @@ export default function Testimonials() {
             disableOnInteraction: false,
           }}
           navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation, Pagination]}
           className="mySwiper"
         >
           {Testimonials_Data.map((Testimonials) => {
