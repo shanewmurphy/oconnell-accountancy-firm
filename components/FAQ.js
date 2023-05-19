@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
-
+import { Link } from "react-scroll";
 const FAQ_Data = [
   {
     id: "01",
@@ -63,7 +63,7 @@ const FAQ_Data = [
 
 export default function FAQ() {
   return (
-    <div className="max-w-4xl mx-auto lg:mb-60 md:mb-40 sm:mb-36">
+    <div className="max-w-4xl mx-auto lg:mb-60 md:mb-40 sm:mb-36" id="FAQ">
       <div>
         <h1 className="text-center xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl text-beige font-bold mb-4 antialiased">
           Frequent questions and answers
@@ -107,9 +107,17 @@ export default function FAQ() {
           Get Your Tax Questions Answered Fast
         </h4>
         <div className="text-center mx-auto mt-4">
-          <button className="text-center text-beige font-bold outline lg:outline-1 md:outline-1 sm:outline-2 outline-beige rounded-full lg:text-2xl lg:py-4 lg:px-24 md:py-4 md:px-20 sm:py-4 sm:px-12 hover:bg-beige hover:text-deepgreen hover:outline-0 antialiased">
-            Book Your Zoom Consultation
-          </button>
+          <Link
+            to="CTA-book-call"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <button className="text-center text-beige font-bold outline lg:outline-1 md:outline-1 sm:outline-2 outline-beige rounded-full lg:text-2xl lg:py-4 lg:px-24 md:py-4 md:px-20 sm:py-4 sm:px-12 hover:bg-beige hover:text-deepgreen hover:outline-0 antialiased">
+              Book Your Zoom Consultation
+            </button>
+          </Link>
         </div>
       </div>
     </div>

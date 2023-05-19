@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll";
+
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center lg:mt-5 md:mt-6 lg:visible md:visible lg:flex md:flex sm:hidden">
@@ -14,18 +15,44 @@ export default function Navbar() {
                 alt="Logo"
               />
             </div>
-            <li className="pl-4 text-white text-base font-semibold antialiased">
-              Home
-            </li>
-            <li className="pl-4 text-white text-base font-semibold antialiased">
-              Services
-            </li>
-            <li className="pl-4 text-white text-base font-semibold antialiased">
-              About Us
-            </li>
-            <li className="pl-4 text-white text-base font-semibold antialiased">
-              FAQs
-            </li>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <li className="pl-4 text-white text-base font-semibold hover:text-beige cursor-pointer antialiased">
+                Services
+              </li>
+            </Link>
+            <Link
+              to="About-Us"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <li className="pl-4 text-white text-base font-semibold hover:text-beige cursor-pointer antialiased">
+                About Us
+              </li>
+            </Link>
+            <Link to="FAQ" spy={true} smooth={true} offset={-50} duration={500}>
+              <li className="pl-4 text-white text-base font-semibold hover:text-beige cursor-pointer antialiased">
+                FAQs
+              </li>
+            </Link>
+            <Link
+              to="Contact-Us"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <li className="pl-4 text-white text-base font-semibold hover:text-beige cursor-pointer antialiased">
+                Contact Us
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>

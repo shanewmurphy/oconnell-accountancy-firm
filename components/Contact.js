@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Contact() {
   return (
-    <div className="lg:w-10/12 md:w-full sm:w-full mx-auto bg-deepgreen rounded-xl py-10 px-6 lg:mb-60 md:mb-40 sm:mb-36 antialiased">
+    <div
+      className="lg:w-10/12 md:w-full sm:w-full mx-auto bg-deepgreen rounded-xl py-10 px-6 lg:mb-60 md:mb-40 sm:mb-36 antialiased"
+      id="Contact-Us"
+    >
       <div className="max-w-xl mx-auto text-center">
         <h1 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-beige font-bold lg:mb-4 md:mb-4 sm:mb-4 antialiased">
           We&apos;d love to hear from you!

@@ -21,6 +21,9 @@ module.exports = {
       screens: {
         sm: "358px",
       },
+      lineHeight: {
+        h1lineheight: "3",
+      },
     },
   },
   plugins: [],

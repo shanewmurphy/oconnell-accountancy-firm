@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-between mt-12 lg:mb-60 md:mb-40 sm:mb-36 gap-14">
+    <div
+      className="flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-between mt-12 lg:mb-60 md:mb-40 sm:mb-36 gap-14"
+      id="services"
+    >
       <div className="basis-3/6">
         <h1 className="xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-beige font-bold antialiased mb-3">
           We offer a wide range of services designed to support your success

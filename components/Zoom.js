@@ -42,7 +42,7 @@ export default function Zoom() {
     setIsOpen(true);
   }
   return (
-    <div className="lg:mb-60 md:mb-40 sm:mb-36">
+    <div className="lg:mb-60 md:mb-40 sm:mb-36" id="CTA-book-call">
       <div className="container mx-auto">
         <h1 className="text-center xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl text-beige font-bold leading-10 antialiased">
           Book a Zoom call now
